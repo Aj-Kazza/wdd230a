@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Ubuntu&display=swap');
 header img {
     max-width: 100px;
     margin: 15px;
@@ -10,12 +11,20 @@ header img {
     grid-column: 1 / 2;
     grid-row: 1/4;
     align-items: center;
-    
 }
 
 h1 {
     color: white;
     text-shadow: 2px 2px 4px #000000;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+li {
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .header {
@@ -26,20 +35,23 @@ h1 {
     align-items: center;
 }
 
-.name { 
+.name {
     grid-column: 2 / 4;
     grid-row: 2/3;
     align-items: center;
     text-align: center;
 }
 
-header, main, footer {
+header,
+main,
+footer {
     margin: 1.25rem auto;
     max-width: 400px;
     font-family: sans-serif;
 }
 
-header, footer {
+header,
+footer {
     background-color: mediumspringgreen;
     border-radius: 1rem;
     box-shadow: 2px 2px 2px #000000;

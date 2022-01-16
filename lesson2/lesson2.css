@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Saira+Condensed&family=Yesteryear&display=swap');
+header,
+main,
+footer {
+    margin: 1rem auto;
+    max-width: auto;
+    min-width: auto;
+    font-family: sans-serif;
+    padding: 0.5rem;
+    ;
+}
+
+.cont {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+body {
+    background-color: #9B00E8;
+    min-width: 390px;
+}
+
+.image {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tholder {
+    background-color: rebeccapurple;
+    padding: 1rem;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.holder {
+    background-color: #5da4a6;
+    min-width: 1/3;
+    text-align: center;
+    align-content: center;
+    box-shadow: 0px 0px 10px #00F1FF;
+    border-radius: 10px 10px 0px 0px;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+}
+
+header,
+footer {
+    background-color: #3c345c;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px #ffd319;
+    text-align: center;
+}
+
+h3 {
+    color: #ffd319;
+    text-shadow: 0px 0px 3px #ff2975;
+    font-family: 'Yesteryear', cursive;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.holder p {
+    color: #ffd319;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.holder img {
+    height: auto;
+    max-width: 100%;
+}
+
+footer p,
+h1,
+h2 {
+    color: #6df1d8;
+    text-shadow: 0px 0px 5px #f222ff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.text {
+    padding: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .cont {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #prin3 {
+        grid-column: span 2;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cont {
+        display: inline-grid;
+        grid-template-columns: 1fr;
+    }
+    #prin3 {
+        grid-column: span 1;
+    }
+}
