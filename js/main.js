@@ -29,11 +29,7 @@ let fulldate = dayName + ", " + monthName + ", " + d.getDate() + ", " + year;
 
 document.getElementById("currentdate").textContent = fulldate;
 
-
-
-let nLastModif = new Date(document.lastModified);
-
-document.querySelector('#update').innerHTML = "" + nLastModif();
+document.querySelector("#thisyear").innerHTML = year;
 
 // ******************
 try {
