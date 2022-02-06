@@ -1,12 +1,11 @@
 header,
 main,
 footer {
+    font-family: 'Montserrat', sans-serif;
     margin: auto;
     max-width: auto;
     min-width: auto;
-    font-family: sans-serif;
     padding: 0.5rem;
-    ;
 }
 
 main {
@@ -15,7 +14,19 @@ main {
     background-color: #f1f5ec;
 }
 
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
 nav ul {
+    font-family: 'Roboto', sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
