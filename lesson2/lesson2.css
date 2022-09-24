@@ -81,6 +81,10 @@ h2 {
     font-family: 'Roboto Mono', monospace;
 }
 
+.text p {
+    font-size: 18px;
+}
+
 .text {
     padding: 5px;
 }
