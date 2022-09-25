@@ -98,7 +98,7 @@ h2 {
     footer,
     header,
     .holder {
-        border: 15px;
+        margin: 15px;
     }
 }
 
@@ -113,6 +113,6 @@ h2 {
     footer,
     header,
     .holder {
-        border: 15px;
+        margin: 15px;
     }
 }
