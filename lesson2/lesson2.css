@@ -18,7 +18,7 @@ footer {
 }
 
 body {
-    background-color: #9B00E8;
+    background-color: #DEF5F3;
     min-width: 390px;
 }
 
@@ -28,17 +28,17 @@ body {
 }
 
 .tholder {
-    background-color: rebeccapurple;
+    background-color: #543E5A;
     padding: 1rem;
     border-radius: 10px 10px 0px 0px;
 }
 
 .holder {
-    background-color: #5da4a6;
+    background-color: #f3e8f8;
     min-width: 1/3;
     text-align: center;
     align-content: center;
-    box-shadow: 0px 0px 10px #00F1FF;
+    box-shadow: 0px 0px 10px #54378A;
     border-radius: 10px 10px 0px 0px;
     display: inline-block;
 }
@@ -49,22 +49,22 @@ body {
 
 header,
 footer {
-    background-color: #3c345c;
+    background-color: #543E5A;
     border-radius: 1rem;
-    box-shadow: 0px 0px 5px #ffd319;
+    box-shadow: 0px 0px 10px #54378A;
     text-align: center;
 }
 
 h3 {
-    color: #ffd319;
-    text-shadow: 0px 0px 3px #ff2975;
+    color: #ffffff;
+    text-shadow: 0px 0px 3px #ECFF15;
     font-family: 'Yesteryear', cursive;
     font-size: 2rem;
     margin: 0.5rem;
 }
 
 .holder p {
-    color: #ffd319;
+    color: #2C315F;
     font-family: 'Saira Condensed', sans-serif;
 }
 
@@ -76,8 +76,8 @@ h3 {
 footer p,
 h1,
 h2 {
-    color: #6df1d8;
-    text-shadow: 0px 0px 5px #f222ff;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #ECFF15;
     font-family: 'Roboto Mono', monospace;
 }
 
