@@ -84,7 +84,7 @@ h2 {
 }
 
 .text {
-    padding: 5px;
+    padding: 20px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -98,7 +98,7 @@ h2 {
     footer,
     header,
     .holder {
-        margin: 15px;
+        margin: 20px;
     }
 }
 
