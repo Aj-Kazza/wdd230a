@@ -97,6 +97,11 @@ h2 {
     #prin3 {
         grid-column: span 2;
     }
+    footer,
+    header,
+    .holder {
+        padding: 15px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -106,5 +111,10 @@ h2 {
     }
     #prin3 {
         grid-column: span 1;
+    }
+    footer,
+    header,
+    .holder {
+        padding: 15px;
     }
 }
