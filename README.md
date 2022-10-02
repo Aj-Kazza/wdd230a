@@ -12,7 +12,7 @@ Asignments index can be viewed through this [link](https://aj-kazza.github.io/wd
 
 - Week 1 - [Course Assignment Portal Page](https://aj-kazza.github.io/wdd230/index.html)
 - Week 2 - [Design Principles](https://aj-kazza.github.io/wdd230/lesson2/design-principles.html)
-- Week 3
+- Week 3 - [Website Planning Document](https://aj-kazza.github.io/wdd230/lesson3/index.html)
 - Week 4
 - Week 5
 - Week 6
