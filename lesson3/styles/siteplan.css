@@ -77,3 +77,9 @@ header {
     background-color: #495159;
     padding: 1em;
 }
+
+@media only screen and (max-width: 60em) {
+    nav ul {
+        display: grid;
+    }
+}
