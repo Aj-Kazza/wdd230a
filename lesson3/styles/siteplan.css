@@ -16,6 +16,7 @@ main {
 
 p {
     font-family: 'Montserrat', sans-serif;
+    color: #495159;
 }
 
 h1,
@@ -23,6 +24,15 @@ h2,
 h3,
 h4 {
     font-family: 'Roboto', sans-serif;
+    color: #495159;
+}
+
+.scheme {
+    max-width: 90%;
+    max-height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav ul {
