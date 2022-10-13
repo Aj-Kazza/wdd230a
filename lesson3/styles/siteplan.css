@@ -40,11 +40,14 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
 }
 
 .topnav {
     background-color: #495159;
     overflow: hidden;
+    justify-content: center;
 }
 
 .topnav a {
@@ -66,6 +69,52 @@ nav ul {
     color: white;
 }
 
+.coloredp {
+    background-color: #495159;
+    color: #5deaa3;
+}
+
+.coloredp2 {
+    background-color: #5deaa3;
+    color: #495159;
+}
+
+.primary {
+    background-color: #495159;
+}
+
+.secondary {
+    background-color: #5DEAA3;
+}
+
+.accent1 {
+    background-color: #C3D2D5;
+}
+
+.accent2 {
+    background-color: #04AA6D;
+}
+
+.colors th {
+    background-color: #999;
+}
+
+.colors td {
+    width: 25%;
+    height: 3em;
+}
+
+ul li {
+    color: #495159;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
 footer,
 header {
     background-color: #c3d2d5;
@@ -78,7 +127,7 @@ header {
     padding: 1em;
 }
 
-@media only screen and (max-width: 60em) {
+@media only screen and (max-width: 600px) {
     nav ul {
         display: grid;
     }
