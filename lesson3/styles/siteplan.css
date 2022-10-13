@@ -61,7 +61,7 @@ nav ul {
 
 .topnav a:hover {
     background-color: #5deaa3;
-    color: black;
+    color: rgb(21, 19, 19);
 }
 
 .topnav a.active {
