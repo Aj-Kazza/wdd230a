@@ -132,5 +132,6 @@ header {
 @media only screen and (max-width: 600px) {
     nav ul {
         display: grid;
+        justify-content: center;
     }
 }
