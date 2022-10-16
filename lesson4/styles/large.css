@@ -1,0 +1,58 @@
+    @media only screen and (min-width: 64rem) {
+        #burger {
+            display: none
+        }
+        nav ul#bigNav {
+            display: flex;
+        }
+        nav ul li a {
+            border: none;
+        }
+        .cont {
+            grid-template-areas: '1 1 1 1' '2 2 2 2' '3 3 3 3' '4 4 4 4';
+        }
+        .action {
+            grid-area: 1/2/3/4;
+        }
+        .news {
+            grid-area: 3/2/4/4;
+        }
+        .spotlight {
+            grid-area: 1/4/4/5;
+            display: block;
+        }
+        .cont .spotlight div:nth-child(3) {
+            display: block;
+        }
+        .join {
+            grid-area: 3/1/4/2;
+        }
+        .event {
+            grid-area: 1/1/2/2;
+        }
+        .weather {
+            grid-area: 2/1/3/2;
+        }
+        .topernav {
+            background-color: transparent;
+            overflow: hidden;
+            justify-content: center;
+        }
+        .topernav a {
+            color: #495159;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            letter-spacing: 0.25vw;
+            margin: 10px;
+        }
+        .topernav a:hover {
+            background-color: #5deaa3;
+            color: rgb(21, 19, 19);
+        }
+        .topernav a.active {
+            /*background-color: #99d7c6;*/
+            color: #495159;
+            border-bottom: solid 2px rgba(0, 0, 0, 0.5);
+        }
+    }

@@ -1,0 +1,91 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+/*----------- apply a natural box layout model to all elements --------------*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#burger {
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 1.75rem;
+    color: #495159;
+}
+
+nav {
+    background-color: #eee;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.8rem 2vh;
+    text-decoration: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#burger span:nth-child(1) {
+    display: block;
+}
+
+#burger span:nth-child(2) {
+    display: none;
+}
+
+#burger.open span:nth-child(1) {
+    display: none;
+}
+
+#burger.open span:nth-child(2) {
+    display: block;
+}
+
+header img {
+    width: 100%;
+}
+
+.headings h1 {
+    font-size: 1.25rem;
+    margin: 0;
+    text-align: left;
+}
+
+.m {
+    letter-spacing: .25pt;
+    font-size: 0.75rem;
+    margin: 0;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.logo {
+    margin-left: 1.5vw;
+}
