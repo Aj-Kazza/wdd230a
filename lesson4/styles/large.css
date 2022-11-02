@@ -13,6 +13,7 @@
         }
         .action {
             grid-area: 1/2/3/4;
+            position: relative;
         }
         .news {
             grid-area: 3/2/4/4;
@@ -54,5 +55,17 @@
             /*background-color: #99d7c6;*/
             color: #495159;
             border-bottom: solid 2px rgba(0, 0, 0, 0.5);
+        }
+        .hero {
+            display: block;
+            position: absolute;
+            top: 25px;
+            right: 50px;
+            background: radial-gradient(#f1f5ec, #c3d2d5);
+            border: 1px solid rgba(0, 0, 0, .1);
+            padding: 1.5rem;
+            box-shadow: 0 0 10px #333;
+            opacity: 0.8;
+            ;
         }
     }
