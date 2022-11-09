@@ -20,7 +20,8 @@ let months = [
     "October",
     "November",
     "December"
-]
+];
+
 let d = new Date();
 let dayName = daynames[d.getDay()];
 let monthName = months[d.getMonth()];
@@ -47,12 +48,33 @@ try {
     ).textContent = new Date().toLocaleDateString("en-US", options);
 } catch (e) {
     alert("Error with code or your browser does not support locale");
-}
+};
 
 function toggleMenu() {
     document.getElementById('priNav').classList.toggle("open");
     document.getElementById('burger').classList.toggle("open");
-}
+};
 
-const x = document.getElementById('burger')
+const x = document.getElementById('burger');
 x.onclick = toggleMenu;
+
+
+const body = document.querySelector('body');
+
+const announcement = document.getElementById('announcement');
+
+
+function meeting() {
+    if (dayName == "Monday") {
+        console.log("today is a monday! displaying the announcement");
+        announcement.style.display = "block";
+    } else if (dayName == "Tuesday") {
+        console.log("today is a tuesday! displaying the announcement");
+        announcement.style.display = "block";
+    } else {
+        console.log("wait for next week for announcement");
+        announcement.style.display = "none";
+    }
+};
+
+meeting();

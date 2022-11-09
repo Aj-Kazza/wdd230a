@@ -148,19 +148,43 @@ nav ul {
 
 .cont {
     display: grid;
+    justify-items: center;
 }
 
 .cont div {
-    min-height: 10rem;
     max-width: 100%;
     border: solid 1px rgba(0, 0, 0, 0.5);
     margin: .5rem;
-    padding: .5rem;
+    background-color: #ccd5d7;
+    text-align: center;
+    justify-content: center;
+}
+
+.cont div p {
+    padding: 0 .5rem;
+    font-size: 1rem;
+}
+
+.cont h2 {
+    text-shadow: 0 0 5px #ace9ca;
 }
 
 .cont .spotlight div {
     min-width: auto;
     margin: 0.2rem;
+}
+
+.spotlight h2 {
+    margin: 0;
+}
+
+.spotlight img {
+    max-width: 150px;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.spotlight p {
+    margin-top: 0;
 }
 
 .cont .spotlight div:nth-child(3) {
@@ -213,9 +237,69 @@ footer {
 }
 
 .action {
+    padding: 0;
     overflow: hidden;
+    margin: 10px auto;
+    position: relative;
+    min-height: 150px;
 }
 
-.hero {
+.action img {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.stats {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background: radial-gradient(#eee, #5DEAA3);
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: .1rem .5rem .1rem .5rem;
+    box-shadow: 0 0 30px #333;
+    opacity: 0.8;
+    border-radius: 1rem;
+}
+
+.weather img {
+    height: 90px;
+    width: auto;
+}
+
+.weather h3,
+.weather h4 {
+    margin-top: 1vw;
+}
+
+.weather h2,
+.weather h3 {
+    margin-bottom: 1vw;
+}
+
+.weather {
+    width: 250px;
+}
+
+.join {
     display: none;
+    width: 100%;
+}
+
+.join section {
+    margin: 1rem;
+    background: #04AA6D;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 0 .5rem 0 .5rem;
+    box-shadow: 0 0 10px #333;
+    opacity: 0.8;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.join section h2 {
+    text-align: center;
+    color: white;
+    margin: 0.2rem;
 }

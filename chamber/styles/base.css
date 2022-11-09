@@ -89,3 +89,13 @@ header img {
 .logo {
     margin-left: 1.5vw;
 }
+
+#announcement {
+    text-align: center;
+    background-color: #a9edcb;
+    padding: 0.1vw;
+}
+
+#announcement h3 {
+    font-size: 1rem;
+}
