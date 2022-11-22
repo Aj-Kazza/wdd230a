@@ -180,7 +180,6 @@ nav ul {
 
 .spotlight img {
     max-width: 150px;
-    background-color: rgba(0, 0, 0, .1);
 }
 
 .spotlight p {
@@ -241,14 +240,19 @@ footer {
     overflow: hidden;
     margin: 10px auto;
     position: relative;
-    min-height: 150px;
+    max-height: 300px;
 }
 
-.action img {
+.heroimage {
     padding: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.myphoto {
+    width: 100%;
+    margin: 0 0 0 0;
 }
 
 .stats {
@@ -265,13 +269,14 @@ footer {
 }
 
 .weather img {
-    height: 90px;
+    height: 60px;
     width: auto;
 }
 
-.weather h3,
+.weather p,
 .weather h4 {
     margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 
 .weather h2,
@@ -280,7 +285,23 @@ footer {
 }
 
 .weather {
+    display: grid;
+    grid-template-areas: '1 1' '2 2' '3 3' '4 4';
     width: 250px;
+}
+
+.weather h2 {
+    grid-area: 1/1/2/3;
+}
+
+.weather h4 {
+    grid-area: 3/1/4/3;
+}
+
+.weather .wind {
+    grid-area: 4/1/5/3;
+    border-left: none;
+    border-right: none;
 }
 
 .join {

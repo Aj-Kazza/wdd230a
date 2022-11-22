@@ -38,7 +38,7 @@
     <header>
         <div class="headermain">
             <div class="logo">
-                <picture><img src="images/birb.png" alt="Tarawa Chamber of Commerce logo"></picture>
+                <picture><img src="images/birb2.webp" alt="Tarawa Chamber of Commerce logo"></picture>
                 <section class="headings">
                     <h1>Tarawa</h1>
                     <h2 class="m">Chamber of Commerce</h2>
@@ -78,8 +78,11 @@
         <div></div>
         <div class="cont">
             <div class="action">
-                <picture>
-                    <img src="images/hero.jpg" alt="hero image">
+                <picture class="myphoto">
+                    <source media="(max-width: 426px)" srcset="images/wdd230-org-small.jpg">
+                    <source media="(max-width: 768px)" srcset="images/wdd230-org-medium.jpg">
+                    <source media="(min-width: 169px)" srcset="images/wdd230-org-large.jpg">
+                    <img class="heroimage" src="images/wdd230-org.jpg">
                 </picture>
                 <section class="stats">
                     <h3>Join the Chamber</h3>
@@ -94,8 +97,13 @@
             <div class="weather">
                 <h2>Weather</h2>
                 <img src="images/4.png" alt="partly cloudy placeholer">
-                <h3>Partly Cloudy</h3>
-                <h4>33&#176C</h4>
+                <h3><span id="temp">40</span> &#176F</h3>
+                <h4>Partly Cloudy</h4>
+                <div class="wind">
+                    <p>Windspeed: <span id="speed">10</span> mph</p>
+                    <p>Windchill: <span id="chill"></span></p>
+                </div>
+
             </div>
             <div class="news">
                 <h2>News</h2>
@@ -110,17 +118,17 @@
             <div class="spotlight">
                 <div>
                     <h2>Store Construction</h2>
-                    <img src="images/building.png" alt="">
+                    <img src="images/build.png" alt="">
                     <p>Get started! Contructions to help you get your shop up and ready to go!</p>
                 </div>
                 <div>
                     <h2>Seasonal Fishing</h2>
-                    <img src="images/fishing.png" alt="">
+                    <img src="images/fish.png" alt="">
                     <p>What's on the menu today? Enjoy easy access to seasonal fishes!</p>
                 </div>
                 <div>
                     <h2>Farmer's Market</h2>
-                    <img src="images/farming.png" alt="">
+                    <img src="images/farm.png" alt="">
                     <p>Let's all go green! All local produce up for sale, all local produce up for grab!</p>
                 </div>
             </div>
@@ -132,7 +140,7 @@
     <footer>
         <div class="footmain">
             <div class="blogo">
-                <picture><img src="images/birb.png" alt="Tarawa Chamber of Commerce logo"></picture>
+                <picture><img src="images/birb2.webp" alt="Tarawa Chamber of Commerce logo"></picture>
                 <section class="footing">
                     <h3>Tarawa Chamber of Commerce</h3>
                     <p>Partment 2B 123 Complex Row</p>
@@ -157,6 +165,7 @@
         </div>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>
