@@ -8,12 +8,12 @@ const loadImages = (image) => {
 };
 
 //from video
-/*const imgOptions = {
+const imgOptions = {
     threshold: 0,
     rootMargin: '0px 0px 0px 0px'
 };
 
-if ('IntersectionObserver' in window) {
+/*if ('IntersectionObserver' in window) {
     const imgObserver = new IntersectionObserver((items, observer) => {
         items.forEach((item) => {});
     }, imgOptions);
@@ -25,13 +25,14 @@ if ('IntersectionObserver' in window) {
     imagesToLoad.forEach((img) => {
         loadImages(img);
     });
-}*/
+}
 
-//from mdn
 imagesToLoad.forEach((img) => {
     loadImages(img);
-});
+});*/
 
+
+//from mdn
 if ("IntersectionObserver" in window) {
     const observer = new IntersectionObserver((items, observer) => {
         items.forEach((item) => {
