@@ -31,6 +31,7 @@ imagesToLoad.forEach((img) => {
     loadImages(img);
 });*/
 
+//for debugging
 let imgcheck = 0
 
 //from mdn
