@@ -31,6 +31,7 @@ imagesToLoad.forEach((img) => {
     loadImages(img);
 });*/
 
+let imgcheck = 0
 
 //from mdn
 if ("IntersectionObserver" in window) {
@@ -44,6 +45,9 @@ if ("IntersectionObserver" in window) {
     });
     imagesToLoad.forEach((img) => {
         observer.observe(img);
+        imgcheck = imgcheck + 1
+        console.log(`Loaded images = ${imgcheck}`)
+
     });
 } else {
     imagesToLoad.forEach((img) => {
