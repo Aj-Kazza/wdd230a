@@ -16,7 +16,7 @@ Asignments index can be viewed through this [link](https://aj-kazza.github.io/wd
 - Week 4 - [Chamber Home Page Build](https://aj-kazza.github.io/wdd230/chamber/index.html)
 - Week 5 - [DOM Manipulation](https://aj-kazza.github.io/wdd230/lesson5/bom.html)
 - Week 6 - Responsive Images
-- Week 7 - [Progressive Loading](https://aj-kazza.github.io/wdd230/lesson7/lazyloading.html)
+- Week 7 - [Progressive Loading](https://aj-kazza.github.io/wdd230/lesson7/lazyload.html)
 - Week 8
 - Week 9
 - Week 10
