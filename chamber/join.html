@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="WDD 230 Project, Tarawa Chamber of Commerce, Discover page">
+    <meta name="description" content="WDD 230 Project, Tarawa Chamber of Commerce">
     <meta name="author" content="Ari-John Katia">
 
     <!-- This start file was build by Paul Cheney  -->
-    <title>Discover || Tarawa Chamber of Commerce</title>
+    <title>Tarawa Chamber of Commerce</title>
 
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -44,7 +44,6 @@
                         <h1>Tarawa</h1>
                         <h2 class="m">Chamber of Commerce</h2>
                     </a>
-
                 </section>
             </div>
             <!-- other nav here... cuz I'm lazy-->
@@ -52,7 +51,7 @@
                 <ul id="bigNav">
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="directory.html">Directory</a></li>
-                    <li><a href="join.html">Join</a></li>
+                    <li><a href="#" class="active">Join</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -68,8 +67,9 @@
             <ul id="priNav">
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
+                <li><a href="#" class="active">Join</a></li>
                 <li><a href="contact.html">Contact</a></li>
+
             </ul>
         </nav>
     </header>
@@ -80,61 +80,6 @@
     <main>
         <div></div>
         <div class="cont">
-            <div class="action">
-                <picture class="myphoto">
-                    <source media="(max-width: 426px)" srcset="images/wdd230-org-small.jpg">
-                    <source media="(max-width: 768px)" srcset="images/wdd230-org-medium.jpg">
-                    <source media="(min-width: 169px)" srcset="images/wdd230-org-large.jpg">
-                    <img class="heroimage" src="images/wdd230-org.jpg">
-                </picture>
-                <section class="stats">
-                    <h3>Join the Chamber</h3>
-                </section>
-            </div>
-            <div class="event">
-                <h2>Thatching Ceremony</h2>
-                <h3>&#10024 Maiana M'aneaba, Bikenibeu</h3>
-                <p>Join us for the roof laying ceremony for the Maiana m'aneaba in Bikenibeu, Saturday 10am.<br class="moreinfo"> <a href="#">more info...</a></p>
-
-            </div>
-            <div class="weather">
-                <h2>Weather</h2>
-                <img src="images/4.png" alt="partly cloudy placeholer">
-                <h3><span id="temp">40</span> &#176F</h3>
-                <h4>Partly Cloudy</h4>
-                <div class="wind">
-                    <p>Windspeed: <span id="speed">10</span> mph</p>
-                    <p>Windchill: <span id="chill"></span></p>
-                </div>
-
-            </div>
-            <div class="news">
-                <h2>News</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse sed nisi lacus sed. Est velit egestas dui id ornare arcu odio ut sem.</p>
-            </div>
-            <div class="join">
-                <section>
-                    <h2>Join Us!</h2>
-                </section>
-                <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-            </div>
-            <div class="spotlight">
-                <div>
-                    <h2>Store Construction</h2>
-                    <img src="images/build.png" alt="">
-                    <p>Get started! Contructions to help you get your shop up and ready to go!</p>
-                </div>
-                <div>
-                    <h2>Seasonal Fishing</h2>
-                    <img src="images/fish.png" alt="">
-                    <p>What's on the menu today? Enjoy easy access to seasonal fishes!</p>
-                </div>
-                <div>
-                    <h2>Farmer's Market</h2>
-                    <img src="images/farm.png" alt="">
-                    <p>Let's all go green! All local produce up for sale, all local produce up for grab!</p>
-                </div>
-            </div>
         </div>
 
     </main>
@@ -165,14 +110,10 @@
             <p>WDD 230 Project</p>
             <p class="seps"> | </p>
             <p>Last Updated: <span id="currentdate"></span></p>
-            <p class="seps"> | </p>
-            <p>Days Since Last Visit: <span id="visits"></span></p>
-
         </div>
     </footer>
     <script src="scripts/main.js"></script>
     <script src="scripts/windchill.js"></script>
-    <script src="scripts/progressive.js"></script>
 </body>
 
 </html>

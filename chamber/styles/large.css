@@ -65,4 +65,25 @@
             color: #495159;
             border-bottom: solid 2px rgba(0, 0, 0, 0.5);
         }
+        /* discover.html */
+        .contdiscover .myphoto {
+            width: 55%;
+            padding: 0 1rem 1rem 1rem;
+        }
+        .right .imgdesc {
+            text-align: left;
+            left: 2%;
+            transition: 0.5s ease;
+            min-width: 70%;
+            min-height: 10%;
+            background: linear-gradient(to right, #ace9ca, #ace2e9, transparent);
+        }
+        .left .imgdesc {
+            text-align: right;
+            right: 2%;
+            transition: 0.5s ease;
+            min-width: 60%;
+            min-height: 10%;
+            background: linear-gradient(to left, #ace9ca, #ace2e9, transparent);
+        }
     }

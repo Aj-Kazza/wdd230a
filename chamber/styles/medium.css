@@ -76,4 +76,40 @@
     .moreinfo {
         display: none;
     }
+    /* for stuff pertaining towards the discover.html page */
+    div {
+        overflow: auto;
+    }
+    .contdiscover picture {
+        width: 55%;
+        padding: 0 1rem;
+    }
+    .contdiscover picture img {
+        overflow: hidden;
+        padding: 1rem;
+        transition: 0.5s ease-in-out;
+    }
+    .contdiscover picture:hover img {
+        filter: blur(0.1em);
+        transform: scale(1.02);
+        transition: 0.5s ease-in-out;
+    }
+    .contdiscover picture:hover .imgdesc {
+        opacity: 1;
+    }
+    .right picture {
+        float: right;
+    }
+    .left picture {
+        float: left;
+    }
+    .imgdesc {
+        text-align: justify;
+        transition: 0.5s ease;
+        min-height: 10%;
+        background: linear-gradient(to top, #ace9ca, #ace2e9);
+    }
+    .contdiscover p {
+        text-align: justify;
+    }
 }
