@@ -110,6 +110,6 @@
         background: linear-gradient(to top, #ace9ca, #ace2e9);
     }
     .contdiscover p {
-        text-align: justify;
+        text-align: left;
     }
 }
